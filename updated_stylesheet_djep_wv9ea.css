@@ -1,8 +1,18 @@
+.djep-base-box {
+    background: #F5F5F5;
+    font-weight: 400;
+    border: 1px solid #b5b5b5 !important;
+    border-radius: 4px;
+    color: #000;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
  @import url(https://www.djep21.com/clients/includes/stylesheet_updates.css); 
 @charset "utf-8";
 /* StyleSheet - Default Style Version 24022012.0029 */
-html {overflow-y: scroll; text-decoration:none;}
-a {text-decoration:none;}
+html {overflow-y: scroll; }
+a {}
 .djep-cursorpointer {
 	cursor: pointer;
 }
@@ -128,7 +138,7 @@ body.djep-body[style*="background-color:"] {background-color:#FFFFFF;}
     border-radius: 5px;
     box-shadow: #999 0px 2px 8px;
     background: #FFFFFF; /* VERY IMPORTANT - DNE */
-	overflow:hidden;
+	
 }
 #djep-guestrequestcontent {
     border: 1px solid #333;
@@ -140,7 +150,7 @@ body.djep-body[style*="background-color:"] {background-color:#FFFFFF;}
     border-radius: 5px;
     box-shadow: #999 0px 2px 8px;
     background: #FFFFFF; /* VERY IMPORTANT - DNE */
-	overflow:hidden;
+	
 }
 
 
@@ -495,8 +505,8 @@ background: linear-gradient(to bottom,  rgba(212,255,163,1) 0%,rgba(173,255,163,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4ffa3', endColorstr='#adffa3',GradientType=0 ); /* IE6-9 */
 height:35px;
 margin-top: 8px;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
+
+
 }
 .djep-playlistboxmustplaytitle {
 background: #b4e391;
@@ -509,8 +519,8 @@ background: linear-gradient(top,  #b4e391 0%,#96f21f 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#96f21f',GradientType=0 );
 height:35px;
 margin-top: 8px;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
+
+
 }
 
 .djep-playlistboxplayifposstitle {
@@ -524,8 +534,8 @@ background: linear-gradient(top,  #fff8c1 0%,#f1da36 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff8c1', endColorstr='#f1da36',GradientType=0 );
 height:35px;
 margin-top: 8px;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
+
+
 }
 .djep-playlistboxdedicationstitle {
 background: #adcdfc;
@@ -538,8 +548,8 @@ background: linear-gradient(top,  #adcdfc 1%,#81b3f9 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adcdfc', endColorstr='#81b3f9',GradientType=0 );
 height:35px;
 margin-top: 8px;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
+
+
 }
 .djep-playlistboxonlyrequesttitle {
 background: #ffe8e8;
@@ -552,8 +562,8 @@ background: linear-gradient(top,  #ffe8e8 0%,#a5829b 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe8e8', endColorstr='#a5829b',GradientType=0 );
 height:35px;
 margin-top: 8px;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
+
+
 }
 .djep-playlistboxdonotplaytitle {
 background: #f7a99b;
@@ -566,8 +576,8 @@ background: linear-gradient(top,  #f7a99b 0%,#e5584b 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7a99b', endColorstr='#e5584b',GradientType=0 );
 height:35px;
 padding-top: 4px;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
+
+
 }
 
 .djep-playlistbox			{background-color: #F6F6F6; text-align: left;}
@@ -578,7 +588,7 @@ border: 1px solid #b5b5b5 !important;
 .djep-playlistboxdedications{background-color: #DDE8FF; text-align: left;}
 .djep-playlistboxonlyrequest{background-color: #E9CEFF; text-align: left;}
 .djep-playlistboxmustplay, .djep-playlistboxdonotplay, .djep-playlistboxplayifposs, .djep-playlistboxdedications, .djep-playlistboxonlyrequest, .djep-playlistbox {
-	border-radius: 4px;
+	
 }
 
 .djep-playlistboxcustomtype1 {background-color: #ecfbff; text-align: left;}
@@ -597,8 +607,8 @@ background: linear-gradient(top,  #ffc9dd 0%,#ff8fb9 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc9dd', endColorstr='#ff8fb9',GradientType=0 );
 height:35px;
 margin-top: 8px;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
+
+
 }
  .djep-playlistboxcustomtype2title {
 background: #d0e4c1;
@@ -611,8 +621,8 @@ background: linear-gradient(top,  #d0e4c1 0%,#96f21f 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4c1', endColorstr='#c1ef86',GradientType=0 );
 height:35px;
 margin-top: 8px;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
+
+
 }
  .djep-playlistboxcustomtype1title {
 background: #e2f3ff;
@@ -625,8 +635,8 @@ background: linear-gradient(top,  #e2f3ff 0%,#a7c2ff 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2f3ff', endColorstr='#a7c2ff',GradientType=0 );
 height:35px;
 margin-top: 8px;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
+
+
 }
  .djep-playlistboxcustomtype4title {
 background: #ffceb6;
@@ -639,8 +649,8 @@ background: linear-gradient(top,  #ffceb6 0%,#ff9b6a 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffceb6', endColorstr='#ff9b6a',GradientType=0 );
 height:35px;
 margin-top: 8px;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
+
+
 }
 .djep-playlistboxcustomtype5title {
 background: #fdfd9b;
@@ -653,8 +663,8 @@ background: linear-gradient(top,  #FFEBCD 0%,#fddcaa 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFEBCD', endColorstr='#fddcaa',GradientType=0 );
 height:35px;
 margin-top: 8px;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
+
+
 }
 
 
@@ -670,7 +680,7 @@ border: 1px solid #b5b5b5 !important;
     font-weight: normal;
     padding: 4px 2px;
     text-decoration: none;
-    border-radius: 4px;
+    
     width:90px;
 	cursor: pointer;
 }
@@ -689,11 +699,11 @@ border: 1px solid #b5b5b5 !important;
 background: #DDD;
 height:35px;
 margin-top: 8px;
-font-weight: 400;
+
 font-size:14px;
-border: 1px solid #b5b5b5 !important;
-text-decoration:none;
-color:#000;
+
+
+
 }
 .djep-special_song_content_div{
 	background: white;
@@ -721,7 +731,7 @@ color:#000;
 	margin:2px auto 0;
 	border: 1px solid #AAA;
 	background: #CCC url(../images/ui-bg_highlight-soft_75_cccccc_1x100.png) center repeat-x;
-	border-radius: 4px;
+	
 	height:34px;
 }
 .djep-requestonlytitle > p {
@@ -780,7 +790,7 @@ color:#000;
 	margin:2px auto 0;
 border: 1px solid #AAA;
 background: #CCC url(../images/ui-bg_highlight-soft_75_cccccc_1x100.png) center repeat-x;
-border-radius: 4px;
+
 	height:34px;
 	font-family:Arial, Helvetica, sans-serif;
 }
@@ -811,7 +821,7 @@ border-radius: 4px;
 }
 
 .djep-music_selections_navigation li a{
-	text-decoration:none;
+	
 	color:inherit;
 }
 
@@ -1591,7 +1601,7 @@ color:#ffffff;
 	width:71px;
 	height:16px;
 	font-weight:bold;
-	text-decoration:none;
+	
 	background-size: 12px;
 	background-repeat:no-repeat;
 	background-position: 5px 5px ;
@@ -1622,468 +1632,468 @@ textarea#djep-timelineheadline {
 /* Module Box Stylings - Uncomment to activate
 
 .djep-eventlistbox {
-	background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+	
+
+
+
+
+
+
+
 }
 .djep-upcomingmeetingsbox {
-	background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+	
+
+
+
+
+
+
+
 }
 .djep-latestemailsbox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-welcometextbox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-contactdetailsbox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-logindetailsbox{
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-contactformbox{
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-ourcontactinfobox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-emailhistorybox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-planneraccessbox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
+
+
+
+
+
+
+
 margin-top: 8px;
-overflow:hidden;
+
 }
 .djep-managemusicbox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-planningformsbox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-timelinebox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-othertoolsbox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-selectyourmusicbox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-eventdatetimesbox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-servicedetailsbox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-eventdescriptionbox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-venueinfobox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-staffingbox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-paymentsfinancesbox {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-feedetailsbox {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-paymenthistorybox {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-totalfeebox {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-otherfilesbox {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 	padding: -20px 0px;
 }
 .djep-documentsbox {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-relatedfilesbox {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-requestchangesbox {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 
 .djep-viewrequestboxes {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-viewrequestboxes {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-guestrequestdescription {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-guestrequesthowitworksbox {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-guestrequestsettingsbox {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-emailmessagebox {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-makepaymentbox {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-viewdocumentbox {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-requestchangesformbox {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-planningformseditbox {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-weddingnamesbox{
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 
 .djep-evaluationbox{
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-printdocumentbox{
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-planningformsviewbox {
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-viewtimelinebox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-edittimelinebox {
-background: #F5F5F5;
-font-weight: 400;
-border: 1px solid #b5b5b5 !important;
-border-radius: 4px;
-text-decoration:none;
-color:#000;
-margin-bottom: 20px;
-overflow:hidden;
+
+
+
+
+
+
+
+
 }
 .djep-viewweddingnamesbox{
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }
 .djep-editweddingnamesbox{
-	background: #F5F5F5;
-	font-weight: 400;
-	border: 1px solid #b5b5b5 !important;
-	border-radius: 4px;
-	text-decoration:none;
-	color:#000;
-	margin-bottom: 20px;
-	overflow:hidden;
+	
+	
+	
+	
+	
+	
+	
+	
 }*/
 
 /* Guest Request Music Database CSS Settings */
@@ -2143,7 +2153,7 @@ overflow:hidden;
 	font-size:15px;
 	font-weight:bold;
 	padding:6px 24px;
-	text-decoration:none;
+	
 	text-shadow:1px 1px 0px #ffffff;
 	float:right;
 }.djep-guestlogout:hover {
@@ -2173,7 +2183,7 @@ overflow:hidden;
 	font-size:15px;
 	font-weight:bold;
 	padding:6px 34px;
-	text-decoration:none;
+	
 	text-shadow:1px 1px 0px #689324;
 	margin-left:8px;
 }.djep-guestsubmit:hover {
@@ -2232,11 +2242,11 @@ overflow:hidden;
 	font-size:12px;
 	font-weight:300;
 	padding:4px 6px;
-	text-decoration:none;
+	
 	text-shadow:1px 1px 0px #ffffff;
 	width: 220px;
 	text-align:left;
-	text-decoration:none;
+	
 	cursor: url(../images/openhand.cur), default !important;
 }.djep-timelineitems:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff) );
@@ -2308,7 +2318,7 @@ overflow:hidden;
 } 
 .djepm-timelinemobilepanel { 
 	border: 1px solid #666666;
-	border-radius: 4px;
+	
 	background: #EEE;
 	margin: 15px 0px;
 }
