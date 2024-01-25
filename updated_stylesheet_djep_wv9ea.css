@@ -1,7 +1,7 @@
  @import url(https://www.djep21.com/clients/includes/stylesheet_updates.css); 
 @charset "utf-8";
 /* StyleSheet - Default Style Version 24022012.0029 */
-html {overflow-y: scroll; text-decoration:none; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+html {overflow-y: scroll; text-decoration:none;}
 a {text-decoration:none;}
 .djep-cursorpointer {
 	cursor: pointer;
@@ -11,7 +11,7 @@ a {text-decoration:none;}
 .djep-othereventcontainer  {
 	text-align:right;
 }
-.djep-balanceduerow {background-color: #F3F4F6; color: #333333;
+.djep-balanceduerow {
 	background-color: #FAF07E !important;
 	color: #E7690C;
 	font-weight: 700;
